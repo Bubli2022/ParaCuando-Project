@@ -3,7 +3,7 @@ import Link from 'next/link';
 export default function Home() {
   return (
     <>
-      <div className="bg-mi-azul">HOME</div>
+      <div className="bg-app-blue">HOME</div>
       <div>Welcome to the home page!</div>
       <ul>
         <li>
