@@ -19,6 +19,16 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "pages/login.tsx",
+    "pages/sign-up.tsx",
+    "pages/detalle-de-evento.tsx",
+    "pages/perfil/index.tsx",
+    "pages/perfil/configuracion.tsx",
+    "pages/sign-up.tsx"
+  ],
   "exclude": ["node_modules"]
 }
