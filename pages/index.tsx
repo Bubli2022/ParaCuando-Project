@@ -1,4 +1,6 @@
 import Link from 'next/link';
+import React from 'react';
+import MainLayout from '../layouts/MainLayout';
 
 export default function Home() {
   return (
@@ -27,3 +29,6 @@ export default function Home() {
     </>
   );
 }
+Home.getLayout = function getLayout(page: React.ReactNode) {
+  return <MainLayout>{page}</MainLayout>;
+};
